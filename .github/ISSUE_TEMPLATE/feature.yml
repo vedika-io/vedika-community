@@ -1,0 +1,52 @@
+name: Feature request
+description: Propose a developer or product capability
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem to solve
+      description: Describe the workflow or limitation, not only the requested implementation.
+    validations:
+      required: true
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Concrete use case
+      description: Explain who needs this, what they are building, and what outcome is blocked.
+    validations:
+      required: true
+  - type: dropdown
+    id: surface
+    attributes:
+      label: Best-fit surface
+      options:
+        - REST API
+        - SDK
+        - MCP server
+        - Documentation or example
+        - Dashboard or developer experience
+        - New integration
+        - Unsure
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Current workaround or alternatives
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: What would make this useful?
+      description: Give testable output, compatibility, or workflow expectations.
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Public-content confirmation
+      options:
+        - label: This request contains no secrets, personal data, customer content, or private account information.
+          required: true

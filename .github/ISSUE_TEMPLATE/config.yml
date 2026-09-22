@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Account and billing support
+    url: https://vedika.io/contact
+    about: Use private support for account, billing, subscription, credit, and API-key matters.
+  - name: Security report
+    url: https://github.com/vedika-io/vedika-community/security/advisories/new
+    about: Report suspected vulnerabilities privately.
+  - name: Developer documentation
+    url: https://vedika.io/docs
+    about: Review the current API and SDK documentation.
+  - name: Service status
+    url: https://vedika.io/status
+    about: Check current service availability before reporting an outage.
